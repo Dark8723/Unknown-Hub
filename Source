@@ -1,11 +1,1 @@
-local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/xHeptc/Kavo-UI-Library/main/source.lua"))()
-local Window = Library.CreateLib("Unknown Hub", "Synapse")
-
--- MAIN
-local Main = Window:NewTab("Main")
-local MainSection = Main:NewSection("Main")
-
-
-MainSection:NewButton("Infinite Yield", "FE Admin Script.", function()
-    loadstring(game:HttpGet('https://raw.githubusercontent.com/EdgeIY/infiniteyield/master/source'))()
-end)
+loadstring(game:HttpGet(("https://raw.githubusercontent.com/Dark8723/Unknown-Hub/main/Source"), true))()
